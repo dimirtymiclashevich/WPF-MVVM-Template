@@ -1,9 +1,9 @@
-﻿<Window x:Class="WPF.MVVM.Template.MainWindow"
+﻿<Window x:Class="AppName.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WPF.MVVM.Template"
+        xmlns:local="clr-namespace:AppName"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
