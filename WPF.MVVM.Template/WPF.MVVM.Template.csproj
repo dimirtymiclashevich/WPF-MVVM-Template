@@ -54,6 +54,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="Converters\BoolToVisibilityInvertConverter.cs" />
+    <Compile Include="Converters\CollectionToVisibilityConverter.cs" />
+    <Compile Include="Converters\EmptyStringToCollapseConverter.cs" />
+    <Compile Include="Converters\EmptyStringToVisibleConverter.cs" />
+    <Compile Include="Converters\StringToUpperConverter.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -98,7 +104,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />
-    <Folder Include="Converters\" />
     <Folder Include="Models\" />
     <Folder Include="Views\" />
   </ItemGroup>
