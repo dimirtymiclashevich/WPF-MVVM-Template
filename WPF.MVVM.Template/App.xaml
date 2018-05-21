@@ -1,7 +1,6 @@
-﻿<Application x:Class="WPF.MVVM.Template.App"
+﻿<Application x:Class="AppName.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WPF.MVVM.Template"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
